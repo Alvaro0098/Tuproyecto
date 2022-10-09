@@ -9,11 +9,14 @@ const routes: Routes = [
   {
     path: "login",
     loadChildren: () => import('./public/pages/login/login.module').then(m => m.LoginModule)
-  }
-];
-
+  },
+  {
+    path: "contact",
+    loadChildren: () => import('./public/pages/contact-list/contact-list.module').then(m => m.ContactListModule),
+  }, 
+]
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
 export class AppRoutingModule { }
