@@ -1,0 +1,27 @@
+<!-- 
+<p>contact-card works!</p>
+<div id="container">
+    <div id="left">
+        <p> "firstname" "lastname" </p>
+        <span> "telephoneNumber" </span>
+    </div>
+    <div id="right">
+        <a href="tel:"><img id="wp" src="./../../../../assets/icons/call.png"></a>
+        <a target="_blank"><img id="wp" src="./../../../../assets/icons/whatsapp.png"></a>
+    </div>
+</div> -->
+
+<p>contact-card works!</p>
+<div id="container">
+    <div id="left">
+        <p> Nombre: {{contact.first_name}}  </p>
+        <p> Apellido: {{contact.last_name}} </p>
+        <p> Teléfono: {{contact.phone_number}} </p>
+        <p> E-Mail: {{contact.email}} </p>
+        <img src="{{contact.photo}} ">
+    </div>
+    <div id="right">
+        <a href="tel:"><img id="wp" src="./../../../../assets/icons/call.png"></a>
+        <a target="_blank"><img id="wp" src="./../../../../assets/icons/whatsapp.png"></a>
+    </div>
+</div>
