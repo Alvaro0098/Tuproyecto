@@ -1,0 +1,37 @@
+.backgroundp{
+    height: 100%;
+    width: 100%;
+    background-image: url("../../../../assets/img/fondo2proyect.jpg");
+    padding-top: 150px ;
+    padding-bottom: 150px ;
+}
+
+.form_flex{
+
+    height: 300px;
+    width: 3    0%;
+    background: #F09819;  /* fallback for old browsers */
+    background: linear-gradient(to left, #dacc51e9, #f09619f4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 25%;           
+    border-radius: 10px;
+    box-shadow: 0 0 50px 0 rgba($color: #151501c7, $alpha: 1.0);
+       
+}
+
+.item-flex1{
+    padding-bottom: 30px;   
+}
+
+input{
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: rgb(175, 127, 220);
+}

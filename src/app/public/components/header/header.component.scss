@@ -1,3 +1,20 @@
 ul{
-    background-color: aquamarine;
+    background-color: white;
+    list-style-type: none;
+}
+
+li{
+    text-decoration: unset;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ul_flex{
+    display: flex;
+    justify-content: space-around;
+    
 }
