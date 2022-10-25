@@ -6,20 +6,40 @@
     padding-bottom: 150px ;
 }
 
-
-.form_flex{    
-    padding-top: 70px;
-    height: 300px;
+.form_flex{
+    //margin-right: 25%;
     width: 30%;
+    margin: auto;
     background: #F09819;  /* fallback for old browsers */
     background: linear-gradient(to left, #dacc51e9, #f09619f4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 100px;
+    padding: 10px;
     font-family: 'Inter', sans-serif;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 25%;           
+    //margin-left: 25%;           
     border-radius: 10px;
     box-shadow: 0 0 50px 0 rgba($color: #151501c7, $alpha: 1.0);
+       
+}
+
+
+//.item-flex1{
+    //padding-bottom: 30px;   
+//}
+
+input{
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: rgb(227, 208, 0);
+    color: rgb(61, 59, 59);
+    
+}
+button:hover{
+    color: rgb(255, 255, 255);
+    background-color: #000000d5;
+    box-shadow: 0 8px 16px 0 rgba($color: #000000, $alpha: 0.5), 0 6px 20px 0 rgba($color: #000000, $alpha: 0.5);
 }
