@@ -11,17 +11,24 @@
     </div>
 </div> -->
 
-<p>contact-card works!</p>
-<div id="container">
-    <div id="left">
-        <p> Nombre: {{contact.first_name}}  </p>
-        <p> Apellido: {{contact.last_name}} </p>
-        <p> Teléfono: {{contact.phone_number}} </p>
-        <p> E-Mail: {{contact.email}} </p>
+<br>
+<div class="container">
+    <div>
         <img src="{{contact.photo}} ">
     </div>
+    <div>
+        <p class="name" > Nombre: {{contact.first_name}}  </p>
+        <p> Apellido: {{contact.last_name}} </p>
+    </div>
+    <div id="left">
+        
+        <p> Teléfono: {{contact.phone_number}} </p>
+        <p> E-Mail: {{contact.email}} </p>
+    </div>
+   
+   
     <div id="right">
-        <a href="tel:"><img id="wp" src="./../../../../assets/icons/call.png"></a>
-        <a target="_blank"><img id="wp" src="./../../../../assets/icons/whatsapp.png"></a>
+        <a href="tel:"><img id="wp" src="./../../../assets/img/phone-solid.svg"></a>
+        <a target="_blank"><img id="wp" src="./../../../src/assets/img/whatsapp-icon.svg"></a>
     </div>
 </div>
