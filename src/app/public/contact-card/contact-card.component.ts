@@ -11,8 +11,9 @@ export class ContactCardComponent implements OnInit {
 
   constructor() { }
 
-  @Input() contact: Contact = defaultContact
- // @Input() contact: Contact = {} as Contact;
+  //@Input() contact: Contact = defaultContact
+ @Input() contact: Contact = {} as Contact;
+ emergente:boolean = false;
 
   ngOnInit(): void {
   }

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { contactData } from 'src/assets/MockaData/FakeData';
 import { Contact } from 'src/core/interfaces/contact';
+import { ContactService } from 'src/core/services/contact.service';
 import { ContactCardComponent } from '../../contact-card/contact-card.component';
 
 
@@ -11,10 +12,15 @@ import { ContactCardComponent } from '../../contact-card/contact-card.component'
 })
 export class ContactListComponent implements OnInit {
 
-  contactData:Contact[] = contactData
-  constructor() { }
+  contactInfo:Contact[] = []
+  constructor(public us:ContactService) { }
 
   ngOnInit(): void {
+    this.getData()
   }
 
+  async getData() {
+    this.contactInfo = await this.us.getContacts();
+    console.log(this.contactInfo)
+  }
 }
