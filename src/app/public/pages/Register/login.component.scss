@@ -1,40 +1,68 @@
 .backgroundp{
-    height: 100%;
-    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+    height: 100vh;
+    width: 100vw;
     background-image: url("../../../../assets/img/fondo2proyect.jpg");
-    padding-top: 150px ;
-    padding-bottom: 150px ;
+   // padding-top: 150px ;
+   // padding-bottom: 150px ;
+
 }
 
 .form_flex{
-    //margin-right: 25%;
-    width: 30%;
-    margin: auto;
+    font-size:1.2vw;
+    width: 25%;
+    margin: center;
     background: #F09819;  /* fallback for old browsers */
     background: linear-gradient(to left, #dacc51e9, #f09619f4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    flex-wrap: wrap;
     font-family: 'Inter', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    //margin-left: 25%;           
+    font-family: 'Montserrat', sans-serif;           
     border-radius: 10px;
     box-shadow: 0 0 50px 0 rgba($color: #151501c7, $alpha: 1.0);
        
 }
 
-
-//.item-flex1{
-    //padding-bottom: 30px;   
-//}
-
-input{
-    margin-bottom: 20px;
+h1{
+    font-size:2.6vw;
 }
 
-button{
-    background-color: rgb(227, 208, 0);
+.item-flex1{
+    
+    align-items: center;
+    display: flex;
+    justify-content:center;
+    
+    
+}
+
+.item-flex2{
+    
+    
+    font-size:1vw
+}
+input{
+    //margin-bottom: 20px;
+    
+    margin-bottom: 1.2vw;
+}
+label{
+    
+    flex-direction: center;
+
+}
+
+.bt_SingUp{
+    font-size:1.2vw;
+    border-style: groove;
+    border-radius: 5px;
+    border-width: 1.5px;
+    background-color: 	rgb(255, 215, 0);
     color: rgb(61, 59, 59);
     
 }
@@ -42,4 +70,40 @@ button:hover{
     color: rgb(255, 255, 255);
     background-color: #000000d5;
     box-shadow: 0 8px 16px 0 rgba($color: #000000, $alpha: 0.5), 0 6px 20px 0 rgba($color: #000000, $alpha: 0.5);
+}
+
+
+.item-flex4{
+    
+    flex-direction: column;
+}
+.r_mensaje{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.Log-link{
+    font-size: 1.2vw;
+    
+    border-width: 1px;
+    border-style: dashed;
+    border-color: #000000;
+    border-radius: 5px;
+    background-color: rgb(227, 208, 0);
+    color: rgb(61, 59, 59);
+    padding: 3% 15%;
+    //padding: 5px 30px;
+    text-decoration : none ;
+}
+.Log-link:hover{
+    color: rgb(255, 255, 255);
+    background-color: #000000d5;
+    box-shadow: 0 8px 16px 0 rgba($color: #000000, $alpha: 0.5), 0 6px 20px 0 rgba($color: #000000, $alpha: 0.5);
+}
+
+.item-flex4{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 3%;
+    margin-bottom: 5%;
 }
